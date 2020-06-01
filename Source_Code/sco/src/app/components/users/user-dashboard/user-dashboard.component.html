@@ -1,0 +1,70 @@
+<div class="container-fluid main">
+	<mat-card id="matCard">
+		<div>
+			<div *ngIf="user">
+        <div>
+          <p style="text-align: right;"><button style="background-color: rgb(20, 3, 36); color: #fff;">welcome {{user.username}}</button></p>
+          <h3>PROFILE INFORMATION</h3>
+        </div>
+        <br>
+        <div class="row">
+					<div class="col-md-3">
+						<button class="btn btn-outline-secondary one">ID:{{user.id}}</button>
+					</div>
+					<div class="col-md-3">
+						<button class="btn btn-outline-secondary one">Name: {{user.firstname}} {{user.lastname}}</button>
+					</div>
+					<div class="col-md-3">
+                        <button class="btn btn-outline-secondary one">{{user.email}}</button>
+          </div>
+        </div>
+        <div>
+        </div>
+
+      </div>
+			<div>
+        <br>
+				<h2>Dashboard Details.</h2>
+				<br>
+				<div>
+					<mat-accordion>
+						<mat-expansion-panel (opened)="panelOpenState = true"
+											 (closed)="panelOpenState = false" id="matExpansionPanel">
+						  <mat-expansion-panel-header>
+							<mat-panel-title id="matPanelTitle">
+							  Decorator
+							</mat-panel-title>
+							<mat-panel-description>
+							  The panel {{panelOpenState ? 'open' : 'closed'}}
+							</mat-panel-description>
+						  </mat-expansion-panel-header>
+						</mat-expansion-panel>
+					  </mat-accordion>
+				</div>
+				<br><br>
+				<div *ngIf="payDetail">
+					<mat-accordion  *ngFor="let pay of payDetail " >
+						<mat-expansion-panel (opened)="panelOpenState = true"
+											 (closed)="panelOpenState = false" class="payments">
+						  <mat-expansion-panel-header class="matexpansionpanelheader">
+							<mat-panel-title id="mat-panel-title">
+							  Success Pay
+							</mat-panel-title>
+							<mat-panel-description>
+							  The panel {{panelOpenState ? 'open' : 'closed'}}
+							</mat-panel-description>
+						  </mat-expansion-panel-header>
+						  <div>
+                <p>Payment ID: {{pay.id}}</p>
+                <p>Amount Charge: {{pay.amount | currency:'Ksh': 'symbol':'1.2-2'}}</p>
+                <p>Date: {{pay.date}}</p>
+              </div>
+						</mat-expansion-panel>
+            </mat-accordion>
+				</div>
+			</div>
+		</div>
+	</mat-card>
+	<br>
+</div>
+

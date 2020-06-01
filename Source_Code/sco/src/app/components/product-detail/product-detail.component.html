@@ -1,0 +1,36 @@
+<div class="container main">
+  <div class="sub-main" *ngIf="product">
+    <div class="row">
+      <div class="col-md-9">
+        <br>
+        <h2>{{product?.name}}</h2>
+        <hr>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+      <img [src]="product?.imageUrl" [alt]="product?.name">
+    </div>
+
+    <div class="row">
+      <div class="col-md-9">
+        <br>
+        <strong>Price: </strong><span> {{ product?.price | currency:'Ksh': 'symbol':'1.2-2'}}</span><br>
+        <strong>Realese Date:</strong><span> {{product?.releaseDate}}</span><br>
+        <strong>Product Code:</strong><span> {{product?.productCode}}</span><br>
+        <app-star [rating]="product?.starRating"></app-star>
+        <div>
+          <h3>Product Details</h3>
+          <p class="details">{{product?.details}}</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-secondary "  id="btn-one" (click)="pay(total)">___Buy</button>
+      <button type="button" class="btn btn-outline-secondary" id="btn-two" (click)="addToCart(product)">Add to Cart</button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-secondary" id="btn_three" [routerLink]="['/home/products']">___Back</button>
+    </div>
+  </div>
+</div>

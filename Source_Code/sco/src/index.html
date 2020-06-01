@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sco</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <app-root></app-root>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+  <script type="text/javascript">
+    const stripe = Stripe('pk_test_VkJ8y5HG6QjIHyBR6aBM3fB000bigg8HhF');
+    const elements = stripe.elements();
+  </script>
+</body>
+</html>

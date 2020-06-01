@@ -1,0 +1,39 @@
+<div class="container-fluid main">
+	<mat-card id="matCard">
+  <div class="row" id="row-one">
+    <div class="col-md-7"><p style="text-align: left; margin-right: 10px;"><i class="fa fa-shopping-cart"></i></p></div>
+    <div class="col-md-5"><h2>Items In Cart</h2></div>
+  </div>
+  <br>
+
+  <div class="row">
+   <mat-card  class="col-md-9" *ngFor="let item of items" class="cart-item">
+    <div class="cart-item-child">
+      <span>{{item.name}}</span>
+      <span>{{item.price | currency}}</span>
+      <span><button type="button" class="btn btn-outline-secondary" id="btn-one" >CROMO</button></span>
+   </div>
+   </mat-card>
+  </div>
+  <br><br>
+  <div class="row">
+    <mat-card  class="col-md-9"class="cart-item">
+     <div class="cart-item-child">
+       <button type="button" class="btn btn-success" id="btn-one" (click)="pay(total)">BUY</button>
+    </div>
+    </mat-card>
+   </div>
+  <br><br>
+
+  <div class="row">
+    <mat-card class="col-md-9" class="summary" >
+      <div class="cart-item-child">
+        <button type="button" class="btn btn-outline-secondary" id="btn-three" [routerLink]="['/home/products']">Add More/ Back</button>
+        <button type="button" class="btn btn-outline-secondary" id="btn-two" (click)="clearCart()" >Clear Cart</button>
+      </div>
+    </mat-card>
+  </div>
+	</mat-card>
+	<br>
+</div>
+

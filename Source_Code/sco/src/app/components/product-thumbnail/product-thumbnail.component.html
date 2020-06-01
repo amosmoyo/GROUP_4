@@ -1,0 +1,48 @@
+<div class="row mx-2 p-3 d-flex justify-content-center">
+  <mat-card class="m-2" style="width: 18rem;" id="matCard" *ngFor="let product of products" (click)="route(product.productId)" [title]="'Click to view product details'">
+    <mat-card-header>
+      <mat-card-title  class="mat-card-title">{{product?.name}}</mat-card-title>
+      <mat-card-subtitle>New brand!</mat-card-subtitle>
+    </mat-card-header>
+    <!--<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+    <mat-card-content>
+     <div class="row">
+        <img [src]="product?.imageUrl" class="card-img-top" [alt]="product?.name">
+        <p>
+        <br>
+        <span>{{product?.price | currency:"ksh ": "symbol": "1.2-2"}}</span><br>
+          <span>Serial: {{product?.productCode}}</span><br>
+          <app-star [rating]="product?.starRating"></app-star><br>
+          <span>{{product?.description}}</span>
+        </p>
+        <p class="grad">Click to view in product-details</p>
+      </div>
+    </mat-card-content>
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, id.</p>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>-->
+</mat-card>
+</div>
+
+<!--<div class="products row mx-2 p-3 d-flex justify-content-center">
+  <div *ngFor="let product of allProducts" class="card m-2" style="width: 18rem;">
+    <img class="card-img-top" [src]="product.img_url" [alt]="product.name">
+    <div class="card-body">
+      <h3>{{ product.name }} <div *ngIf="product.is_new" class="badg badge-success"></div> </h3>
+      <p class="card-text">{{ product.description }}</p>
+      <button
+        angular-rave
+        [PBFPubKey] = ""
+        [customer_email] = "'amosmoyo5300@gmail.com'"
+        [amount]="product.price"
+        [custom_title]="product.name"
+        [txref]="product.name"
+        (callback)="paymentSuccess($event)"
+        (close)="paymentFailure()"
+        class="btn btn-primary">Buy for &#x20a6;{{ product.price }}</button>
+    </div>
+  </div>
+</div>-->
+

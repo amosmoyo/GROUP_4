@@ -1,0 +1,165 @@
+<div class="container">
+  <br><br><br><br>
+  <div class="head">
+   <h3 class="sponsor-head">CROMO Mobile Store</h3>
+   <p>Is the leading online mobile store in kenya</p>
+   <p>
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quod perferendis suscipit, dolorem laboriosam sint. Cupiditate sint animi dolores. Ipsum repudiandae deserunt quam enim, sit obcaecati voluptatibus hic atque necessitatibus, esse eum consequuntur natus rerum sapiente, ducimus nisi? Aperiam rem ipsum reiciendis, quasi quae corrupti necessitatibus autem facilis nostrum iusto praesentium ipsa numquam labore quo odio tempore ducimus quod? Illum, vitae repudiandae. Minus ad totam dignissimos beatae, officiis quidem dolore veritatis rem eaque nisi quod error itaque possimus facere quas laborum earum ea, repellendus nobis mollitia. Architecto, sed? Totam tempore voluptates fuga. Nesciunt, pariatur maiores voluptas animi et dolor ipsa!
+   </p>
+  </div>
+  <br><br><br><br>
+  <mat-card class="card-main" [title]="'Click to view product list'" id="matCard">
+
+    <div class="row" *ngIf="products" style="margin: 0; padding: 0; background-color: #fff;">
+
+      <div class="col-md-6" [routerLink]="['/home/products']">
+        <div  class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden pro-alternatwo">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Top selling products</h2>
+                  <p class="lead">This is the best selling product this month.</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto child ">
+                  <h3 class="display-5" style="color: rgb(74, 146, 212);">{{productOne.name}}</h3>
+                  <img [src]="productOne?.imageUrl"  [alt]="productOne?.name">
+                   <div class="proone-details">
+                    <p style="color: rgb(74, 146, 212);">
+                      <br>
+                      <span>{{productOne?.price | currency:"ksh ": "symbol": "1.2-2"}}</span><br>
+                        <span>Serial: {{productOne?.productCode}}</span>
+                        <app-star [rating]="productOne?.starRating"></app-star>
+                        <span>{{productOne?.description}}</span>
+                    </p>
+                   </div>
+                </div>
+        </div>
+       </div>
+
+       <div class="col-md-6" [routerLink]="['/home/products']">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden pro-alternaone">
+                <div class="my-3 p-3">
+                  <h2 class="display-5" style="color: rgb(74, 146, 212);">Top Brand</h2>
+                  <p class="lead" style="color: rgb(74, 146, 212);">This is all time best brand phone in our store.</p>
+                </div>
+                <div id="two" class="shadow-sm mx-auto child">
+                  <h3 class="display-5">{{productTwo.name}}</h3>
+                  <img [src]="productTwo?.imageUrl"  [alt]="productOne?.name">
+                  <div class="protwo-details">
+                    <p>
+                      <br>
+                      <span>{{productTwo?.price | currency:"ksh ": "symbol": "1.2-2"}}</span><br>
+                        <span>Serial: {{productTwo?.productCode}}</span>
+                        <app-star [rating]="productTwo?.starRating"></app-star>
+                        <span>{{productTwo?.description}}</span>
+                    </p>
+                   </div>
+                </div>
+          </div>
+       </div>
+
+    </div>
+  </mat-card>
+  <br><br><br><br>
+  <mat-card class="card-main" [title]="'Click'">
+    <div class="row"  style="margin: 0; padding: 0; background-color: #fff;">
+      <div class="col-md-6">
+        <div  class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden pro-alternaone">
+                <div class="my-3 py-3">
+                  <h2 class="display-5" style="color: rgb(74, 146, 212);">About Us</h2>
+                  <p class="lead" style="color: rgb(74, 146, 212);">Learn more about CROMO Mobile Store</p>
+                </div>
+                <div class="shadow-sm mx-auto child">
+                  <img src="assets/images/face-7.jpg">
+                  <br>
+                  <p style="color: #fff;">Learn more about us in our about page.</p>
+                </div>
+        </div>
+       </div>
+       <div class="col-md-6">
+        <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden pro-alternatwo">
+                <div class="my-3 p-3">
+                  <h2 class="display-5" style="color: #fff;">Our Services</h2>
+                  <p class="lead" style="color: #fff;">We deal with all brand of phones.</p>
+                </div>
+                <div id="two" class="shadow-sm mx-auto child" style="background-color: #fff;">
+                  <img src="assets/images/shop2.jpeg">
+                  <br>
+                  <p style="color: rgb(74, 146, 212);">Come, connect and explore the world with us.</p>
+                </div>
+          </div>
+       </div>
+    </div>
+  </mat-card>
+  <br><br><br><br>
+
+  <div class="sponsor">
+    <h3><span class="sponsor-head">Sponsors</span></h3>
+    <div class="row sponsor">
+      <div class="logo amazon col-md-4" >
+        <a href="https://www.amazon.com/">
+          <img src="assets/images/amazon.jpg" id="amazon" alt="'amazon logo'">
+        </a>
+      </div>
+      <div class="logo killmall col-md-4">
+        <a href="https://www.kilimall.co.ke/new/help/article/2097">
+          <img src="assets/images/killmall.jpg" id="killmall" alt="'killmall kenya logo'">
+        </a>
+      </div>
+      <div class="log jumia col-md-4">
+        <a href="https://www.jumia.co.ke/">
+          <img src="assets/images/jumia.jpg" id="jumia" alt="'jumia kenya logo'">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--<div class="row">
+  <div class="col-md-6">
+          <div id="one" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                  <div class="my-3 py-3">
+                    <h2 class="display-5">Top Product</h2>
+                    <p class="lead">This is the best selling product this month.</p>
+                  </div>
+                  <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0"></div>
+          </div>
+  </div>
+  <div class="col-md-6">
+          <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                  <div class="my-3 p-3">
+                    <h2 class="display-5">New Products</h2>
+                    <p class="lead">Some of our products.</p>
+                  </div>
+                  <div id="two" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0"></div>
+            </div>
+  </div>
+
+      <div class="row mx-2 p-3 d-flex justify-content-center">
+      <mat-card class="m-2" style="width: 18rem;" *ngFor="let product of products"  [routerLink]="['/home/products']">
+        <mat-card-header>
+          <mat-card-title>{{product?.name}}</mat-card-title>
+          <mat-card-subtitle>New brand!</mat-card-subtitle>
+
+       </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <div class="row">
+             <img [src]="product?.imageUrl" class="card-img-top" [alt]="product?.name">
+             <p>
+             <br>
+             <span>{{product?.price | currency:"ksh ": "symbol": "1.2-2"}}</span><br>
+               <span>Serial: {{product?.productCode}}</span><br>
+               <app-star [rating]="product?.starRating"></app-star><br>
+               <span>{{product?.description}}</span>
+             </p>
+           </div>
+         </mat-card-content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, id.</p>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+</div>-->
+

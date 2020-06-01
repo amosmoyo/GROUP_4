@@ -1,0 +1,128 @@
+img {
+  width: 120px;
+  height: 100px;
+}
+
+#matCard {
+  margin: 0;
+  padding: 0;
+}
+
+.card-main {
+  background-color: rgb(122, 165, 206);
+  opacity: 1;
+}
+
+.grad {
+  background-image: linear-gradient(to right, #eee, rgb(122, 165, 206));
+  color: rgb(122, 165, 206);
+}
+
+.col-md-5:hover {
+  background-color: rgb(245, 105, 11);
+  opacity: 0.9;
+  border: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+#amazon,
+#killmall,
+#jumia {
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+}
+
+.sponsor h3 {
+  font-style: italic;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sponsor-head {
+  background-color: rgb(74, 146, 212);
+}
+
+#two {
+  background-color: rgb(74, 146, 212);
+}
+
+.head {
+  text-align: center;
+}
+
+.proone-details {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.protwo-details {
+  text-align: left;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.pro-alternaone {
+  background-color: #fff;
+}
+
+.pro-alternaone:hover {
+  background-color: rgb(74, 146, 212, 0.4);
+  cursor: pointer;
+}
+
+.pro-alternatwo {
+  background-color: rgb(74, 146, 212);
+}
+
+.pro-alternatwo:hover {
+  background-color: rgb(74, 146, 212, 0.2);
+  cursor: pointer;
+}
+
+.pro-alternaone-child {
+  background-color: rgb(74, 146, 212);
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 21px 21px 0;
+  }
+
+  .child {
+    width: 90%;
+    min-height: 300px;
+    border-radius: 21px 21px 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    border-radius: 21px 21px 0;
+  }
+
+  .child {
+    width: 80%;
+    min-height: 300px;
+    border-radius: 21px 21px 0;
+  }
+
+  .side {
+    margin-left: 0;
+    border-left: 3px solid rgb(74, 146, 212);
+  }
+}

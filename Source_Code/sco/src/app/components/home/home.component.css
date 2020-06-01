@@ -1,0 +1,105 @@
+.head {
+  min-height: 100%;
+  width: 100%;
+  height: 630px;
+  background-image: url('~src/assets/images/back4.jpg');
+
+  /* background-image: url('https://images.unsplash.com/photo-1497942304796-b8bc2cc898f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'); */
+
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 4fr;
+  grid-template-areas:
+    "... ... ..."
+    "... divone ..."
+    "... ... ...";
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-areas:
+      "... ... ..."
+      "... divone ..."
+      "... ... ...";
+  }
+
+  .fa-shopping-cart {
+    font-size: 8em;
+    color: rgb(0, 119, 255);
+  }
+
+  .content-span {
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    font-size: 0.99em;
+  }
+
+  .sub-head {
+    grid-area: divone;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .head {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 4fr;
+    grid-template-areas:
+      "... ... ..."
+      "... divone ..."
+      "... ... ...";
+  }
+
+  .fa-shopping-cart {
+    font-size: 10em;
+    color: rgb(0, 119, 255);
+  }
+
+  .content-span {
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    font-size: 0.99em;
+  }
+
+  .sub-head {
+    grid-area: divone;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+}
+
+em {
+  margin-top: 0;
+  font-size: 0.8em;
+  color: #222;
+}
+
+h2 {
+  margin-bottom: 0;
+  color: rgb(0, 119, 255);
+}
+
+.heading {
+  text-align: center;
+}
+
+.gap {
+  height: 50px;
+  background-image: linear-gradient(to bottom, rgb(80, 133, 168), #666);
+  box-shadow: 0 -2px 2px 2px rgb(65, 124, 163), 2px 0 2px 2px #666;
+}

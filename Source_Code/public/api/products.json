@@ -1,0 +1,112 @@
+[
+    {
+      "productId": 1,
+      "name": "Infinix Hot 7",
+      "price": 10000,
+      "productCode": "GDN-0011",
+      "starRating": 3.2,
+      "description": "Infinix Hot 7 (X624), 16GB + 1GB (Dual SIM), Gold",
+      "details":"Get the incredible HOT 7 x624 at CROMO-Eletronic Store! The 6.2-inch HD+ IPS LCD capacitive touchscreen offers Infinix users the Full View experience. Boasting of 720 x 1500 pixels in resolution. It runs on Android V8.1 Oreo operating system with 1.3 Ghz Quad Core Cortex-A7 processor and MT6580P chipset. The main camera of Infinix Hot 7 is 13 MP, and front selfie camera is 8 MP. It has 16GB Built-in storage and 1GB RAM. Order  for this HOT 7 CROMO-Eletronic Store and have it delivered right at your doorstep.",
+      "releaseDate": "June 21, 2016",
+      "imageUrl":"assets/images/oppo.png"
+    },
+    {
+      "productId": 2,
+      "name": "Tecno Spark 3 (KB7)",
+      "price": 10000,
+      "productCode": "GDN-0023",
+      "starRating": 4.2,
+      "description": "Tecno Spark 3 (KB7), 6.2',32GB+2GB, (Dual SIM)- Blue+FREE OTG CABLE",
+      "details":"TECNO Spark 3 smartphone features a Android 9 Pie Os, 6.2-inch display,Helio A22 chipset, 8 MP selfie camera, 13 MP + 2 MP dual rear camera, 2 GB RAM,16 GB internal memory, and a 3500 mAh battery. Order for this TECNO Spark 3 smartphone online from CROMO-Eletronic Store and have it delivered to you.",
+      "releaseDate": "April 21, 2016",
+      "imageUrl":"assets/images/spark3.jpg"
+    },
+    {
+      "productId": 3,
+      "name": "Gionee M6 Plus",
+      "price": 13000,
+      "productCode": "TBX-0048",
+      "starRating": 4.8,
+      "description": "Gionee M6 Plus(4GB RAM +64GB ROM ,8MP+16MP Camera, 6020mAh Battery, Dual SIM 4G, Amoled 6 Inch FHD Display)//GOLD",
+      "details":"The M6 Plus is equipped with a powerful 6020mAh polymer battery in a 8.2mm to thin body,complemented by  an intelligent power management system that allows every milliampere of electricity  to be used. The measured M6 plus can talk for 55 hours in a row, the video can be played continuously for 16.4 hours, and the measured standby is 794 hours. The M6 Plus is equipped with an amazing 6020mAh polymer battery.",
+      "releaseDate": "July 21, 2016",
+      "imageUrl":"assets/images/gionee.jpg"
+    },
+    {
+      "productId": 4,
+      "name": "Samsung Galaxy A10S",
+      "price": 12700,
+      "productCode": "TBX-0022",
+      "starRating": 4.8,
+      "description":"Samsung Galaxy A10S, 6.2', 32GB + 2GB (Dual SIM) - Black",
+      "details":"Samsung’s Galaxy A products are a range of devices packed with compelling innovations for daily life. As the newest addition to the Galaxy A family, the Galaxy A10s delivers powerful performance and optimized functionality primed for a new era of communication and connectivity. Thanks to its 4,000mAh battery, the Galaxy A10s can keep up with you all day, whether you are gaming, streaming, or broadcasting live. The all-new dual camera means brighter, clearer photos, while depth detection intelligently recognizes backgrounds and allows you to add artistic effect to your images. The Galaxy A10s’ remarkable 6.2-inch Infinity-V Display provides an immersive experience when catching up on your favorite content, and with the addition of a fingerprint scanner to the Galaxy A10s, you can be sure to keep your data safe. Place your order for this amazing product from CROMO-Eletronic Store   and have it delivered to your doorstep at an amazing price",
+      "releaseDate": "August 21, 2016",
+      "imageUrl":"assets/images/samsung.jpg"
+    },
+    {
+      "productId": 5,
+      "name": "Tecno Pouvoir 3 (LB7)",
+      "price": 9999,
+      "productCode": "GMG-0042",
+      "starRating": 3.7,
+      "description": "Tecno Pouvoir 3 (LB7), 6.2', 32GB + 2GB (Dual SIM),Blue",
+      "details":"Tecno Pouvoir 3 runs on the latest Android 8.1 Oreo operating system with 1.28 GHz Quad-Core processor and a 5000mAh Battery. It comes with a bigger 6.2-inch HD+ SuperFullVIEW capacitive touchscreen which displays quality visuals. The phone comes with a 13MP rear camera and an 13MP selfie shooter. It has 32GB of internal storage and 2GB of RAM. Order for this Tecno Pouvior 3 online from CROMO-Eletronic Store and have it delivered to your doorstep.",
+      "releaseDate": "January 21, 2016",
+      "imageUrl":"assets/images/1.jpg"
+    },
+    {
+      "productId": 6,
+      "name": "Nokia 5.1",
+      "price":35000,
+      "productCode":"COD-1111",
+      "starRating":4.8,
+      "description":"Nokia 5.1, 5.5-inch (3GB RAM 32GB ROM), Android 9 Pie, Dual Sim, 16MP+8MP 2970mAh 4G Smartphone-Blue",
+      "details": "Nokia 5.1 as a phablet features 5.5 inch display afford you a vivid and different visual experience. 2 cameras, 16.0MP back camera and 8.0MP front camera, you can enjoy images with 1080 x 2160 high resolution. It comes with most of the features we've come to expect from a phablet, including 3GB RAM 32GB ROM storage equipped with Android 8.0 MT6755S and 2970mAh big capacity battery that you can play games faster.",
+      "releaseDate":"April 21, 2016",
+      "imageUrl":"assets/images/nokia5.jpg"
+    },
+    {
+      "productId":7,
+      "name": "Elephone E10",
+      "price":41000,
+      "productCode": "TDD-LTE",
+      "starRating": 3.6,
+      "description":"Elephone Elephone E10 Smartphone 6.5'' MT6762D Octa Core 4GB 64GB 4000mAh 48MP NFC Side Fingerprint Smartphone",
+      "details":"4GB + 64GB Max. Expansion Supported：256GB Rear Camera： 48MP+13MP+2MP+5MP True Quad Cameras Front Camera ：13MP Front Camera  Battery： 4000mAh(Typ), Quick Charge OS ：Android 10.0 , Support Multi-Language, Support Google Service, Support OTG, Side Fingerprint, NFC Network：GSM:B2/B3/B5/B8                   WCDMA:B1/B5/B8                   FDD-LTE:B1/B3/B5/B7/B8/B20                  TDD-LTE:B38/B40/B41 SIM Card Type：Nano SIM + Nano SIM+TF Recharging current：5V 2A Wireless Charging：NA",
+      "releaseDate":"January 21, 2018",
+      "imageUrl":"assets/images/Elephone.jpg"
+    },
+    {
+      "productId":8,
+      "name":"Oe X27",
+      "price":14000,
+      "productCode":"TBX-0089",
+      "starRating":4.0,
+      "description":"Oe X27 5.0 Inch Full Screen Android 8.0 512MB+4GB Smartphone 4000mAh Long Standby Dual Card",
+      "details":"GPS: Yes,Built in, Also support A-GPS, Support voice navigation (navigation program not  included)  WiFi: Support 802.11 bgn wireless, support hotspot  Bluetooth: Support Bluetooth4.0  Sensor: Light sensor , Acceleration sensor , Direction sensor  Audio Out Port: 3.5mm   USB Port: Micro-USB2.0      Battery: 4000mAh      Other Features:  Face recognition, Play Store, Air Distance Gesture, Smart Wake, Calculator, Calendar, Alarm, Camera Gallery,Video Recorder, Audio Player, Sound Recorder, FM Radio, Email, Gmail, Flashlight, etc      Available language: Bahasa Indonesia, Bahasa Melayu, Catala, Cestina, Dansk, Deutsch, Eesti, English, Spanish, Filipino, French, Hrvastki, Italian, Latviesu, Lietuviu, Magyar, Nederlands, Norsk bokmal, Polski, Portuguese, Romana, Slovencina, Slovenscina, Suomi, Svenska, Viet, Turkish, Greek, Bulgarian, Russian, Cpnckn, Ykpaihcbka, Persian, Thai, Korean, Chinese, Japanese",
+      "releaseDate":"January 21, 2019",
+      "imageUrl":"assets/images/Oe.jpg"
+    },
+    {
+      "productId":9,
+      "name":"Infinix HOT 8",
+      "price":50000,
+      "productCode":"GDN-0011",
+      "starRating":4.8,
+      "description":"Infinix HOT 8, 6.6 HD,Android 9, 32gb/2gb Ram,8MP,+Tripple Rear Camera,13MP+2MP,4G LTE,5000 Mah,Face Unlock, Fingerprint-cyan",
+      "details":"Infinix HOT 8, 6.6 HD,Android 9, 32gb/2gb Ram,8MP,+Tripple Rear Camera,13MP+2MP,4G LTE,5000 Mah,Face Unlock, Fingerprint-cyan The main camera of Infinix Hot 8 is 13 MP, and front selfie camera is 8 MP. It has 16GB Built-in storage and 1GB RAM. Order  for this HOT 7 CROMO-Eletronic Store and have it delivered right at your doorstep",
+      "releaseDate":"January 21, 2020",
+      "imageUrl":"assets/images/infinix8.jpg"
+    },
+    {
+      "productId":10,
+      "name":"Huawei Y7 Prime",
+      "price":50000,
+      "productCode":"COD-1111",
+      "starRating":4.7,
+      "description":"Huawei Y7 Prime (2019) 6.26'HD Dewdrop (3GB, 32GB ROM) Android 8.1 Oreo (13MP + 2MP) + 16MP Dual SIM 4G 4000mAh- Midnight Black",
+      "details":"Huawei Y7 Prime (2019) smartphone was announced in January 2019. The phone comes with a 6.26-inch touchscreen display with a resolution of 720x1520 pixels and an aspect ratio of 19:9.  Huawei Y7 Prime (2019) is powered by an octa-core Qualcomm 450 processor. It comes with 3GB of RAM. The Huawei Y7 Prime (2019) runs Android 8 and is powered by a 4,000mAh battery. As far as the cameras are concerned, the Huawei Y7 Prime (2019) on the rear packs a 2 & 13-megapixel camera with an f/1.8 aperture. The rear camera setup has autofocus. It sports a 16-megapixel camera on the front for selfies. The Huawei Y7 Prime (2019) runs EMUI 8.2 based on Android 8 and packs 32GB of inbuilt storage that can be expanded via microSD card (up to 512GB). The Huawei Y7 Prime (2019) is a dual-SIM (GSM and GSM) smartphone",
+      "releaseDate":"January 21, 2020",
+      "imageUrl":"assets/images/Huawei.jpg"
+    }
+  ]

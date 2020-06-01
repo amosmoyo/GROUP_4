@@ -1,0 +1,28 @@
+.navbar {
+  min-height: 100px !important;
+  z-index: 1;
+  box-shadow: 0 0.2px 0 0.6px #999 !important;
+}
+
+li > a.active {
+  color: rgb(245, 74, 7) !important;
+}
+
+li > a:hover {
+  cursor: pointer;
+}
+
+.amos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.amos > li {
+  flex: 1;
+}
+
+.amos:nth-child(2) {
+  margin-left: 3px;
+}
